@@ -20,7 +20,8 @@ def fact_recursive(n):
         return n*fact_recursive(n-1)
         # print("Factorial of ",n," is :",facto )
 
-print(fact_iterative(3))
-print(fact_iterative(3))
+n = int(input("Enter the number: "))    #Taking input 'n' from the user
+print("Factorial using iteration: "+str(fact_iterative(n)))
+print("Factorial using recursion: "+str(fact_recursive(n)))
 
 
